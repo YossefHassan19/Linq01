@@ -79,6 +79,13 @@ namespace Linq01
 
             #endregion
 
+            #region Question08
+
+            //8. Sort ProductList by Category ascending, then within each category, sort by UnitPrice descending.
+
+            //var result = Source.ProductList.OrderBy(p => p.Category).ThenByDescending(p => p.UnitPrice);
+
+            #endregion
 
 
 
