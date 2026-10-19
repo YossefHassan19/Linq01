@@ -71,6 +71,13 @@ namespace Linq01
 
             #endregion
 
+            #region Question07
+
+            //7. Print each product's name along with its position (1-based) in the list. Expected format: 1. Chai, 2. Chang, etc.
+
+            //var result = Source.ProductList.Select((p, i) => new { Position = i + 1, ProductName = p.ProductName });
+
+            #endregion
 
 
 
