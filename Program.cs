@@ -2,6 +2,7 @@
 using Linq01.Models;
 using System.Collections;
 using System.Drawing;
+using System.Numerics;
 using System.Xml.Linq;
 
 namespace Linq01
@@ -93,6 +94,17 @@ namespace Linq01
 
             //var result = Source.ProductList.Where(p => p.Category == "Beverages").OrderByDescending(p => p.UnitsInStock)
             //                               .Select(p => new { p.ProductName, p.UnitsInStock });
+
+            #endregion
+
+            #region Question10
+
+            //10. Using QUERY SYNTAX with a compound from clause, list all orders placed in 1997 or later showing CustomerID andOrderDate.
+
+            //var result = from c in Source.CustomerList
+            //                     from o in c.Orders
+            //                     where o.OrderDate.Year >= 1997
+            //                     select new { c.CustomerID, o.OrderDate };
 
             #endregion
 
