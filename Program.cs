@@ -1,6 +1,8 @@
 ﻿using Linq01.DataSources;
 using Linq01.Models;
 using System.Collections;
+using System.Drawing;
+using System.Xml.Linq;
 
 namespace Linq01
 {
@@ -55,6 +57,19 @@ namespace Linq01
 
             #endregion
 
+            #region Question06
+
+            //6. Create a new anonymous type with three properties:
+            //● Name → the product name
+            //● Price → the unit price
+            //● StockStatus → a string: "Available" if UnitsInStock > 0, otherwise "Out of Stock"
+            //● Print the result.
+
+            //var ProductInfo = new { Name = "Product Name", Price = 400, StockStatus = "Available" };
+
+            //Console.WriteLine(ProductInfo.ToString());
+
+            #endregion
 
 
 
