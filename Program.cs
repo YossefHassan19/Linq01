@@ -39,6 +39,14 @@ namespace Linq01
 
             #endregion
 
+            #region Question04
+
+            //4. Get all products where UnitPrice is between 10 and 30
+
+            //var result = Source.ProductList.Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30);
+
+            #endregion
+
 
 
 
